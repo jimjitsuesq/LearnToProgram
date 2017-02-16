@@ -7,7 +7,6 @@ loop do
     
     if answer != answer.upcase
       puts "HUH?! SPEAK UP SONNY!"
-        i == 0
     elsif answer == "BYE"
         i += 1
         puts i
@@ -16,9 +15,7 @@ loop do
       next
     end
     else
-      i == 0
       puts "NO, NOT SINCE #{year}!"
-        i == 0
 end
 
     end
